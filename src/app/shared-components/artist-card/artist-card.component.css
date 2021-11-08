@@ -1,0 +1,11 @@
+.artist-card {
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+
+}
+
+h2.small {
+  font-size: 1.5em;
+  padding: 20px 0px 10px;
+}

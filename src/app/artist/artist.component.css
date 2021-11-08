@@ -1,0 +1,177 @@
+#about-container {
+  overflow: auto;
+}
+
+#about-container-inner {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-row-gap: 1em;
+  height: 100%;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.top-nav {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background-color: #222;
+  border-color: #080808;
+  height: 55px;
+  border-radius: 4px;
+  padding: 1em;
+}
+
+.main-nav {
+  border: 1px solid #e5e5e5;
+}
+
+.welcome-txt {
+  color: #FFF;
+}
+
+.top-nav-item {
+  list-style-type: none;
+}
+
+.top-nav-item li {
+  display: inline;
+}
+
+.top-nav-item li a {
+  color:#FFF;
+  padding: 5px;
+}
+
+.logo-txt {
+  font-size: 1.75em !important;
+  font-weight: bold;
+}
+
+.white {
+  background-color: #FFF !important;
+}
+
+.banner {
+  height: 340px;
+  border-radius: 10px;
+  background-image: url('../../assets/img/whistler.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 14%;
+  color:#FFF;
+  padding: 3em;
+}
+.art-content {
+  display: grid;
+}
+.art-c1-content {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-column-gap: 2em;
+  height: 50%;
+}
+.left {
+  background-image: url('../../assets/img/113010.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  max-height: 600px;
+}
+.red-text {
+  color:red;
+}
+.btn-bordered {
+  border: 1px solid #CCC;
+}
+.product-table {
+  width: 100%;
+  table-layout: fixed;
+  border: 1px solid #CCC;
+}
+.product-table thead tr {
+  background-color: #F1F1F1;
+}
+.product-table td {
+  border-bottom: 1px solid #CCC;
+  padding: 2px 3px;
+}
+.similar-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  text-align: center;
+  grid-column-gap: 1em;
+  margin: 20px 0px;
+}
+.small-text {
+ font-size: .95em;
+}
+.bordered {
+  border: 1px solid #CCC;
+  border-radius: 7px;
+  padding: 1em;
+}
+
+/* footer start */
+
+.top-footer {
+  margin-top: 200px;
+  background-color: #E7E7E7;
+}
+.footer-inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1em;
+  width: 80%;
+  margin: 0px auto;
+  height: 350px;
+  padding: 10px 0px 0px;
+}
+
+.medium-txt {
+  font-size: 1.25em;
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list > li {
+  margin-bottom: 15px;
+  overflow:auto;
+}
+
+ul.footer-list > li > img {
+  float: left;
+  margin-right: 10px;
+}
+
+.footer-links {
+  padding: 15px 0px;
+  display: block;
+}
+
+/* footer end */
+
+/* art container grid */
+
+.art-container-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(1fr, 1fr);
+  grid-gap: 1em;
+  justify-items: center;
+}
+
+.artist-card {
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+
+}
+
+h2.small {
+  font-size: 1.5em;
+  padding: 20px 0px 10px;
+}
+/* end art container grid */

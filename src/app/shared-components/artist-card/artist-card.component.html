@@ -1,0 +1,8 @@
+<div class="artist-card">
+  <img [src]="artist.image_url" [alt]="artist.full_name">
+  <h2 class="small">{{artist.full_name}}</h2>
+  <button class="btn btn-primary full-width">
+      <i class="fas fa-camera"></i>Sales
+      <span class="badge badge-pill badge-light">{{artist.num_sales}}</span>
+  </button>
+</div>
